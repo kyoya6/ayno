@@ -1,0 +1,8 @@
+#!/usr/bin/bash
+# build
+javac -d obj --source-path sauce sauce/Start.java
+
+# run
+cd obj
+java Start
+cd ../
