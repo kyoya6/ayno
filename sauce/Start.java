@@ -1,8 +1,7 @@
-
+import game.Window;
 
 public class Start {
 	public static void main(String[] args) {
-		System.out.println("Odio Salim.");
+		new Thread(new Window(900, 540, "Odio Salim.")).start();
 	}
 }
-
